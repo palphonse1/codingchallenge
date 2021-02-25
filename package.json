@@ -1,0 +1,20 @@
+{
+  "name": "ninecodingchallenge",
+  "version": "1.0.0",
+  "description": "This app accepts json data, filters it and returns a json response with the filtered data or an error message",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test --timeout 0 --exit"
+  },
+  "author": "Paul Alphonse",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
