@@ -1,7 +1,7 @@
 # codingchallenge
 ## Description
 
-A Nodejs REST API that accepts json data contatining TV shows, filters them, and returns a json response with the tittle, slug, and image of the shows that have DRM enabled and contain episodes.
+A Nodejs API that accepts json data containing TV shows. The service filters them, and returns a json response with the title, slug, and image of the shows that have DRM enabled and contain episodes.
 
 ## Requirements
 latest version of Nodejs and npm
@@ -14,7 +14,7 @@ npm start
 ```
 
 ## Usage
-Afer the Nodejs server is started it can accept post requets in raw json.
+Afer the Nodejs server is started it can accept post requests in raw json format on
 http://localhost:3000/
 
 ### Sample Request:
